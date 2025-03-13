@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejal Gupta - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            font-size: 2rem;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 0 0 10px 10px;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid #6a11cb;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.2rem;
+            transition: all 0.3s;
+            padding: 10px;
+        }
+        nav a:hover {
+            background: #f8d210;
+            color: #222;
+            border-radius: 5px;
+        }
+
+        /* Sections */
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            border: 2px solid #6a11cb;
+        }
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 4px solid #6a11cb;
+            padding-bottom: 8px;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .skills-column {
+            width: 48%;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            padding: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #222;
+            color: #fff;
+            font-size: 1rem;
+            margin-top: 40px;
+            border-top: 3px solid #6a11cb;
+        }
+
+        /* Contact Links */
+        a {
+            color: #2575fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tejal Gupta</h1>
+    </header>
+
+    <nav>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>10th:</strong> 95%</li>
+            <li><strong>12th:</strong> 90%</li>
+            <li><strong>Currently pursuing:</strong> B.Tech in Computer Science and Engineering (Internet of Things)</li>
+        </ul>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>R</li>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                </ul>
+            </div>
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Effective Communication</li>
+                    <li>Problem-Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Adaptability</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
+        <h3>Languages Known</h3>
+        <ul>
+            <li>Hindi</li>
+            <li>English</li>
+            <li>French</li>
+            <li>Spanish</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Data-Driven Haryana Load Forecasting Using Machine Learning Techniques</li>
+            <li>Ultrasonic-Based Motion Detection System</li>
+            <li>Micro-Investment Portfolio Optimization and Asset Correlation Analysis</li>
+            <li>Precise Stepper Motor Control Using Arduino</li>
+            <li>Seven-Segment Display Integration with Button Input</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:tejal.gupta2023@vitstudent.ac.in">tejal.gupta2023@vitstudent.ac.in</a></p>
+        <p>Phone: <a href="tel:+919910412891">9910412891</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tejal Gupta. All rights reserved.</p>
+    </footer>
+</body>
+</html>
